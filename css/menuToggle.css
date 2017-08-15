@@ -1,0 +1,268 @@
+
+body {
+background: #474747;
+}
+
+ a {
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+-moz-tap-highlight-color: rgba(0,0,0,0);
+tap-highlight-color: rgba(0,0,0,0);
+appearance:none;
+-moz-appearance:none; /* Firefox */
+-webkit-appearance:none; /* Safari and Chrome */
+-webkit-focus-ring-color:  rgba(0, 0, 0, 0);
+}
+
+*,
+*:before,
+*:after {
+-webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+}
+
+.row {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+  
+  *zoom: 1; }
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
+
+
+.icon-container {
+width: 500px; 
+height: auto; 
+margin-top: 180px; 
+background: #fff; 
+padding: 14px 60px; 
+box-shadow: rgba(0,0,0,0.2) 10px 10px 10px;
+}
+
+
+
+/* Button */ 
+
+.button-square  {
+font-size: 20px; 
+color: #666; 
+line-height: 48px; 
+text-align: center; 
+background: transparent; 
+display: block; 
+width: 48px; 
+height: 48px; 
+cursor: pointer; 
+padding: 0px; 
+float: left;
+margin: 0 14px; 
+}
+
+/* Icons */ 
+
+.icon-box-toggle  {
+height: 100%;
+width: 100%; 
+background: tranparent; 
+position: relative;
+display: block; 
+}
+
+.icon-line-center {
+position: absolute; 
+width: 20px; 
+height: 3px; 
+background: #666; 
+margin: -1.5px 0 0 -10px;
+left: 50%;
+top: 50%; 
+
+-webkit-transition: all .2s ease ;
+	-moz-transition: all .2s ease ;
+	-o-transition: all .2s ease ;
+    transition: all .2s ease ;	
+}
+
+.icon-line-top {
+position: absolute; 
+width: 20px; 
+height: 3px; 
+background: #666; 
+margin: -3px 0 0 -10px;
+left: 50%;
+top: 40%; 
+-webkit-transition: all .2s ease ;
+	-moz-transition: all .2s ease ;
+	-o-transition: all .2s ease ;
+    transition: all .2s ease ;	
+}
+
+.icon-line-bottom {
+position: absolute; 
+width: 20px; 
+height: 3px; 
+background: #666; 
+margin: 1.5px 0 0 -10px;
+left: 50%;
+top: 60%; 
+-webkit-transition: all .2s ease ;
+	-moz-transition: all .2s ease ;
+	-o-transition: all .2s ease ;
+    transition: all .2s ease ;	
+}
+
+
+
+/* Effect 1  */
+.ef-1.active  > i.icon-line-bottom {
+margin: -1.5px 0 0 -10px;
+left: 50%;
+top: 50%; 
+}
+.ef-1.active > i.icon-line-top {
+margin: -1.5px 0 0 -10px;
+left: 50%;
+top: 50%; 
+}
+
+
+
+/* Effect 2  */
+.rotate {
+background: transparent; 
+display: block; 
+width: 48px; 
+height: 48px; 
+padding: 0px; 
+-webkit-transition: all .5s ease ;
+	-moz-transition: all .5s ease ;
+	-o-transition: all .5s ease ;
+    transition: all .5s ease ;	
+}
+
+
+.ef-2.active > span.rotate {
+
+/*transform*/
+-webkit-transform: rotate(90deg);
+   -moz-transform:translate(0px, 0px) rotate(90deg);
+    -ms-transform:translate(0px, 0px) rotate(90deg);
+     -o-transform:translate(0px, 0px) rotate(90deg);
+        transform:translate(0px, 0px) rotate(90deg);
+		
+
+}
+.ef-2.active > span > i.icon-line-bottom {
+margin: -1.5px 0 0 -10px;
+left: 50%;
+top: 50%; 
+}
+.ef-2.active > span > i.icon-line-top {
+margin: -1.5px 0 0 -10px;
+left: 50%;
+top: 50%; 
+}
+
+
+
+/* Effect 3 */
+.ef-3.active > span.rotate {
+
+/*transform*/
+-webkit-transform: rotate(180deg);
+   -moz-transform:translate(0px, 0px) rotate(180deg);
+    -ms-transform:translate(0px, 0px) rotate(180deg);
+     -o-transform:translate(0px, 0px) rotate(180deg);
+        transform:translate(0px, 0px) rotate(180deg);
+		
+
+}
+.ef-3.active > span > i.icon-line-bottom {
+margin: -1.5px 0 0 -10px;
+left: 50%;
+top: 50%; 
+}
+.ef-3.active > span > i.icon-line-top {
+margin: -1.5px 0 0 -10px;
+left: 50%;
+top: 50%; 
+}
+
+
+/* Effect 4  */
+
+.ef-4.active > span.rotate {
+
+/*transform*/
+-webkit-transform: rotate(90deg);
+   -moz-transform:translate(0px, 0px) rotate(90deg);
+    -ms-transform:translate(0px, 0px) rotate(90deg);
+     -o-transform:translate(0px, 0px) rotate(90deg);
+        transform:translate(0px, 0px) rotate(90deg);
+}
+
+
+.ef-4.active > span > i.icon-line-center{
+visibility: hidden; 
+width: 1px; 
+height: 3px; 
+left: 70%;
+}
+
+.ef-4.active > span > i.icon-line-bottom {
+margin: -1.5px 0 0 -10px;
+left: 50%;
+top: 50%; 
+/*transform*/
+-webkit-transform: rotate(135deg);
+   -moz-transform:translate(0px, 0px) rotate(135deg);
+    -ms-transform:translate(0px, 0px) rotate(135deg);
+     -o-transform:translate(0px, 0px) rotate(135deg);
+        transform:translate(0px, 0px) rotate(135deg);
+}
+.ef-4.active  > span > i.icon-line-top {
+margin: -1.5px 0 0 -10px;
+left: 50%;
+top: 50%; 
+/*transform*/
+-webkit-transform: rotate(45deg);
+   -moz-transform:translate(0px, 0px) rotate(45deg);
+    -ms-transform:translate(0px, 0px) rotate(45deg);
+     -o-transform:translate(0px, 0px) rotate(45deg);
+        transform:translate(0px, 0px) rotate(45deg);
+	
+}
+
+
+/* Effect 3 */
+.ef-5.active > span.rotate {
+
+/*transform*/
+-webkit-transform: rotate(-180deg);
+   -moz-transform:translate(0px, 0px) rotate(-180deg);
+    -ms-transform:translate(0px, 0px) rotate(-180deg);
+     -o-transform:translate(0px, 0px) rotate(-180deg);
+        transform:translate(0px, 0px) rotate(-180deg);
+		
+
+}
+.ef-5.active > span > i.icon-line-bottom {
+margin: -1.5px 0 0 -10px;
+left: 50%;
+top: 50%; 
+}
+.ef-5.active > span > i.icon-line-top {
+margin: -1.5px 0 0 -10px;
+left: 50%;
+top: 50%; 
+}
+

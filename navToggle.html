@@ -1,0 +1,49 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>navToggle</title>
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" type="text/css" href="css/component.css">
+<link rel="stylesheet" type="text/css" href="css/menuToggle.css">
+</head>
+
+<body>
+<header class="clearfix">
+	<h1 class="fl"><a href="javascript:void(0);" class="logo"></a></h1>
+    <span class="navToggle" style="display:block;">
+        <a href="javascript:void(0);" class="button-square">
+        <span class="icon-box-toggle ef-4"> 	
+            <span class="rotate">
+                <i class="icon-line-top">  	 </i>
+                <i class="icon-line-center">  </i>
+                <i class="icon-line-bottom">  </i> 
+            </span>
+        </span>  
+    	</a>
+    </span>   
+</header>
+<div class="navToggleMin">
+	<ul>
+    	<li><a href="javascript:void(0);">Work</a></li>
+        <li><a href="javascript:void(0);">About</a></li>
+        <li><a href="javascript:void(0);">Journal</a></li>
+        <li><a href="javascript:void(0);">Contact</a></li>
+        <li class="language"><a href="javascript:void(0);"><em>EN</em> / 中</a></li>
+    </ul>
+</div>
+<script src="js/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+//nav toggle
+	$( '.icon-box-toggle' ).bind( 'click', function(e) {
+		$( this ).toggleClass( 'active' );
+		e.preventDefault();
+
+	});
+</script>
+</body>
+</html>

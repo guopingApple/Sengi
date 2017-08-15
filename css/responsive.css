@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:1200px),screen and (max-device-width:1200px){
+	.tfcIcon{ margin:20% 0;}
+	.tingaH1 h2{ padding:3% 10% 0 10%;font-size: 2.1em;line-height: 25px;}
+}
+@media screen and (max-width:1120px),screen and (max-device-width:1120px){
+	.topoliR h1,.topoliR h4{ padding:0 30px;}
+	.topoliR h2{ padding:0 20px;}
+}
+@media screen and (max-width:1023px),screen and (max-device-width:1023px){
+	.trueTopR h1{ padding:10px;line-height: 27px;}
+}
+@media screen and (min-width:1024px) and (max-width:1120px),screen and (min-width:1024px) and (max-device-width:1120px){
+	.trueTopR h1{padding:40px 30px;}
+}
+@media screen and (max-width:960px),screen and (max-device-width:960px){
+	.color span{ width:30px; height:30px; margin:12px 9px;}
+	.color{ margin-left:-190px;}	
+	.color span.grey{ margin-left:15px;}
+	.tfcIcon{ margin:10% 0;}
+	.tfcIntroH h1{ line-height:22px;}
+	.PhotobookH1 h1{font-size: 2em;line-height: 27px;}
+	.photobookLasttxt p{font-size: 1.6em;line-height: 25px;}
+	.tingaLogos ul li img{ top:-5px;}
+}
+@media screen and (min-width:800px) and (max-width:1024px),screen and (min-width:800px) and (max-device-width:1024px){
+	.rounded ul li h3 img{ width:220px;}	
+}
+@media screen and (min-width:801px) and (max-width:900px),screen and (min-width:801px) and (max-device-width:900px){
+	.worksMatchbox h1,.worksMatchbox h2{ line-height:22px;}
+	.PhotobookH1 h1{font-size: 1.8em;line-height: 22px;}
+	.photobookLasttxt p{font-size: 1.8em;line-height: 16px;}
+	.tingaH1 h2{ padding:6% 6% 0 6%;font-size: 1.7em;line-height: 20px;}
+	.given_intro h1{line-height: 24px;}
+	.Works_SJ_Grid ul li.Works_SJ_Grid02 h2{ line-height:20px;font-size: 1.8em;}
+}
+@media screen and (min-width:481px) and (max-width:799px),screen and (min-width:481px) and (max-device-width:799px){
+	.rounded ul li h3 img{ width:150px;}	
+	.iphoneText{ width:80%; left:6%;}
+	.posBot{ bottom:6%;}
+}
+@media screen and (min-width:600px) and (max-width:800px),screen and (min-device-width:600px) and (max-device-width:800px){
+	.trueTopR h1{line-height:20px; font-size:1.6em;}
+	.topoliR h1,.topoliR h4{ padding:0 20px; line-height:20px; font-size:0.9em;}
+	.topoliR h2{line-height:18px; font-size:0.8em;}
+	.matchboxIntro{ margin-top:10px;}
+	.worksMatchbox h1,.worksMatchbox h2{font-size:1.5em; line-height:19px;}
+	.PhotobookH1 h1{font-size: 1.5em;line-height: 16px;}
+	.photobookLasttxt p{font-size: 1.4em;line-height: 13px;}
+	.tingaH1 h1{ top:7%;}
+	.tingaH1 h2{ padding:3% 5% 0 5%; line-height:15px; font-size:1.6em;}
+	.given_intro h1{font-size: 1.6em;line-height: 17px;}
+	.given_logobig h1 img.given_colors{ width:200px;}
+	.given_research .bgWhite{ padding:20px;}
+	.given_research h2{font-size: 2em;line-height: 21px;}
+	.given_research p{font-size: 1.3em;line-height: 15px;}
+	.Works_SJ_Grid ul li.Works_SJ_Grid02 h2{ line-height:18px;font-size: 1.6em;}
+	.Works_SJ_Grid ul li.Works_SJ_Grid08 h3{font-size: 1.8em;line-height: 18px;}
+}
+@media screen and (min-width:481px) and (max-width:700px),screen and (min-width:481px) and (max-device-width:700px){
+	.eat{ padding:10px;}
+	.eat p{ margin-top:30%;}
+	.color span{ width:18px; height:18px; margin:12px 3px;}
+	.color{ margin-left:-133px;}	
+	.color span.grey{ margin-left:3px;}
+	.color em{ font-size:0.5em; line-height:48px;}
+	.worksRed H1,.worksRed .bgWhite h2{ font-size:1.5em; line-height:24px;}
+	.tfcIcon{ margin:11% 0;font-size:2.1em;line-height: 24px;}
+	.tfcIntroH h1{ font-size:1.8em;}
+	.tfcH2 dl{ padding:0 0 0 75px; text-align:left;}
+	.contact{ padding:50px 5px 25px 20px;}
+	.contact .comClose{right: 15px;}
+	.Works_SJ_Grid ul li.Works_SJ_Grid02 h2{ line-height:14px;font-size: 1.3em;}
+}
+@media screen and (min-width:481px) and (max-width:600px),screen and (min-device-width:481px) and (max-device-width:600px){
+	.trueTopR h1{ padding:6px; line-height:14px; font-size:1.4em;}
+	.topoliR h1{ padding:10px 14px; line-height:19px; font-size:0.7em;}
+	.topoliR h4{padding:10px 14px; line-height:14px; font-size:0.6em;}
+	.topoliR h2{padding:10px 14px; line-height:12px; font-size:0.5em;}
+	.matchboxIntro{ margin-top:5px;}
+	.worksMatchbox h1,.worksMatchbox h2{font-size:1.2em; line-height:15px;}
+	.tfcIcon{ margin:5% 0;}
+	.tfcIntroH h1{ font-size:1.6em;}
+	.tfcH3 h3 .fontCom{font-size:1.6em; line-height:22px;}	
+	.tfcH3 p{font-size:1.5em; line-height:19px;}
+	.topoliR h3 .white{ left:15px;}
+	.PhotobookH1 h1,.photobookLasttxt p{ padding:5px 5% 0 8%; font-size:1.2em; line-height:13px;}
+	.tingaH1 h1{ top:8%;font-size: 1.7em;line-height: 22px;}
+	.tingaH1 h2{ padding:10px 10px 0 10px;font-size: 1.3em;line-height: 12px;}
+	.tingaLogos ul li img{ width:50px;}
+	.tingaIcons ul li img{ width:75px;}
+	.given_intro h1{ font-size:1.2em; line-height:15px;}
+	.given_logobig h1 img.given_colors{ width:150px;}
+	.given_research .bgWhite{ padding:10px;}
+	.given_research h2.fontCom{font-size: 1.8em;line-height: 20px;}
+	.given_research p{font-size: 1.2em;line-height: 13px;}
+	.given_iphone h3{font-size: 1.6em;line-height: 19px;}
+	.Works_SJ_Grid ul li.Works_SJ_Grid02 h2 span{ margin-bottom:5px;}
+	.Works_SJ_Grid ul li.Works_SJ_Grid02 h2{font-size: 1em;line-height: 12px;}
+	.Works_SJ_Grid ul li.Works_SJ_Grid08 h3{padding: 0 5%;bottom: 4%;font-size: 1.6em;line-height: 15px;}
+}
+@media screen and (max-width:480px),screen and (max-device-width:480px){
+	/* index */
+	.works ul li a img.index_matchbox,.hero img,.goal img,.works ul li a img.index_tips,.works ul li a img.index_PhotoBook{ display:none;}	
+	.hero{ height:400px;background:url(../images/index_hero480.jpg) no-repeat center;}
+	.goal{ height:300px;background:url(../images/index_goal480.jpg) no-repeat center top;}
+	.intro{padding:40px 5%;font-size:2.6em; line-height:36px; }	
+	.goal h3{ bottom:20px;padding:0; width:100%; margin-left:-50%; line-height:25px;}
+	.works{ padding:0;}
+	.works ul li,.works ul li.matchbox,.works ul li.tips, .works ul li.photoBook{ float:none; width:100%; margin-bottom:0;}
+	.works ul li a{ border:0;}
+	.works ul li a img.index_matchbox_smaller,.works ul li a img.index_tips_smaller,.works ul li a img.index_PhotoBook_smaller{ display:block;}
+	.works ul li a span{ font-size:2em;bottom:20px;}
+	.shadowWrap{width:100%;}
+	.service h2{ height:auto; padding:40px 0 0 0;}
+	.service .serviceItem{ padding:0;}
+	.service ul{ width:100%;}
+	.service ul li{ width:100%; float:none; padding:30px 0; text-align:center; margin-bottom:0;}
+	.service ul li span{ padding:20px 0;}
+	.service ul li img{ margin:0 auto;}
+	.service ul li a{ font-size:2em;}
+	.service{ padding-bottom:0;}
+	.serviceHover{padding:50px 0 59px 0;}
+	.HoverText{ padding:0 20px;}
+	.works .comClose{ display:none;}
+	/* About */
+	.about dl, .about p,.aboutPic ul li,.aboutPic ul li.fouth{ width:100%;float:none;}
+	.about{ padding-bottom:30px;}	
+	.wedo img,.aboutPic ul li.fouth img,.about_introPic img{ display:none;}
+	img.wedoSmall,.aboutPic ul li.fouth img.wedoSmall,.about_intro_small{ display:block;}
+	.about dl dt{ font-size:3em;}
+	.otherProjects dl dt{ font-size:1.8em; line-height:20px;}
+	.about p span{font-size:0.8em;}
+	.about dl dd{ display:none;}
+	/* Works True&Co */
+	.trueTopL,.trueTopR,.data ul li,.data ul li:first-child, .data ul li:last-child,.data ul li.dataSeond,.otherProjects dl{ width:100%; float:none; padding:0;}
+	.trueTopR h1{ padding:40px 30px;font-size:2.1em; line-height:29px;}
+	.data{ padding:0;}
+	.data ul{ padding:30px 0; width:340px; margin:0 auto;}
+	.data ul li:first-child{ margin-bottom:40px;}
+	.data ul li:first-child p{ text-align:center;}
+	.data ul li h3{ text-align:center;}	
+	.data ul li.dataSeond{ width:170px; margin:0 auto;}
+	.data ul li.dataSeond h3{ line-height:60px;}
+	.truePic img{ display:none;}
+	.truePic img.trueSmall{ display:block;}
+	.bras img.bar{ width:85px;}
+	.otherProjects{ position:relative; padding:0;}
+	.otherProjects dl{ position:absolute; text-align:center; top:45px;}
+	.otherProjects .others{ width:100%; float:none;padding-top:117px;}
+	.others .arrows{ width:280px; margin:0 auto; padding:40px 0; position:absolute; top:0; left:50%; margin-left:-140px;}
+	.others .arrows .arrowNext{ float:right;}
+	.others .arrows a{ margin:0; width:32px; height:32px; background-size:30px 30px;}
+	.others ul li{ width:100%;}
+	/* Works topoli */
+	.topoliL,.topoliR,.rounded ul li{ width:100%; float:none;}
+	.topoliR h1,.topoliR h2,.topoliR h4{ padding:40px;}
+	.topoliR h3 .white{ width:100%; text-align:center; left:0;}
+	.rounded{ background-image:url(../images/bg_roundedSmall.jpg);}
+	.rounded ul{ padding-bottom:40px;}
+	.rounded ul li{ padding:40px 0 0;}	
+	.rounded ul li h3 img{ width:280px;}
+	.rounded ul li h4{ margin-top:40px;}
+	.sketches img,.wireframes img,img.browser,.sketches .white,.wireframes .white{ display:none;}
+	.sketches img.sketcheSmall,.wireframes img.wireframeSmall,img.browserSmall{ display:block;}	
+	.bigmac{ padding-top:10px;}
+	.bigmac img{ width:360px;}
+	.ipad .topoliR img,.ipad .topoliR h4{ position:absolute; overflow:hidden;}
+	.ipad .topoliR h4{ top:0; left:0; height:67%; padding:10px 20px 0 20px; line-height:22px;}
+	.ipad .topoliR img{ bottom:0; left:0;height:33%;}
+	/* Works Red*/
+	.worksRed h2{ background-color:#f6f6f6;}
+	/* Works Matchbox */
+	.worksMatchbox .p0_10,.worksRed .p0_10{ padding:10%;}
+	.matchboxPic ul,.matchboxH2{ border:0;}
+	.matchboxPic ul li,.matchboxPic ul li:first-child,.matchboxPic ul li:last-child{ width:100%; float:none;}	
+	/*Works Tfc */
+	.ColumnTwo{ width:100%; float:none;}
+	.tfcIntroH .bgBlack{ padding:15%;}
+	.tfcIntroH .tfcbg{ padding:0 5% 40px 5%;}
+	.tfcIcon{ text-align:center;}
+	.tfcIcon img{ margin:0 auto;}
+	.tfcH1 img,.tfcH2 img,.tfc_04 img,.iphone img,img.matchbox_05,img.matchbox_logos,img.ipads,img.book{ display:none;}
+	.tfcRight h3{ padding:10%;}
+	.tfcH2 dl{ padding:29% 10% 0 10%; text-align:center;background-position: center top;}
+	.iphoneText{ display:none;}
+	.tfcIcons img{ margin: 0 3%;}
+	.tfcIcons h3{ font-size:2.2em;}
+	/*Works Photobook */
+	.PhotobookH1 h1{ padding:10%;}
+	.photobookPic ul li{ width:100%; float:none;border-right:0;}
+	.photobooks img,img.photobook_11,img.photobook_12,.photobookLasttxt p,.photobookPic ul li img{ display:none;}
+	img.photobookSmall_11{ border-bottom:solid 3px #fff;}
+	.photobookLasttxtSmall{ display:block; font-size:2em; line-height:30px; padding:30px;}
+	/*Works Tinga*/
+	.tingaH1 h2{ padding:10%;}
+	.tingaLogos ul{ padding:75px 0 0 0;}
+	.tingaLogos ul li{ width:100%; float:none; margin-bottom:80px;}
+	.tingaLogos ul li img{ width:100px;}
+	.tingaPic img{ display:none;}
+	.tingaIcons ul{ padding:50px 0}
+	.tingaIcons ul li{width:100%; float:none;margin-bottom:60px;}
+	.tingaIcons ul li:last-child{ margin-bottom:0;}
+	/*Works Given*/
+	.given_intro h1{ padding:30px;}
+	.given_logobig h1 img.given_colors{ width:220px; margin:50px 0;}
+	.givenGrid ul li{ width:50%;}
+	.givenGrid ul li:last-child{ width:100%;}
+	.given_research .bgWhite{ padding:20px;}
+	.given_research p{ padding:10px 0;}
+	.givenPic img,.given_elements img,.given_iphone .ColumnTwo:last-child{ display:none;}
+	.given_elements h4{ top:40px; font-size:2.8em;}
+	.worksMenu .comClose{ right:5px; top:5px;}
+	/* Contact*/
+	.contact{border-bottom:solid 1px #aeb2b3; padding:50px 10px 0 10px;}
+	.contact .ColumnTwo:first-child{ padding:0 20px;}
+	.contactText{ width:100%;}
+	.contact p{ margin:20px 0; }
+	.contact ul{border-top:solid 1px #aeb2b3; padding:20px 0;}
+	.contact ul li{ margin-bottom:0; }
+	.contact ul li input{ width:100%; margin-bottom:8px;height:40px; line-height:40px;}
+	.contact ul li textarea{ width:100%; height:144px;}
+	.contact ul li input.newBus{background-position: calc( 100% - 10px ) 17px;}
+	.contact ul li button{width:100%; margin:20px 0;}
+	.contact .comClose{ top:20px; right:20px;}
+	.shlogo img,.Works_SJ_03 img,.Works_SJ_icon01,.Works_SJ_icon10,.webName,img.Works_SJ_08,img.Works_SJ_04,img.Works_SJ_05,img.Works_SJ_06,.Works_SJ_07{ display:none;}
+	.Works_SJ_03 h1{ position:static; padding:10% 14%; text-align:left;}
+	.Works_SJ_Grid ul{ border:0;}
+	.Works_SJ_Grid ul li{ width:100%; float:none; border-right:0; border-top-width:3px;}
+	.Works_SJ_Grid ul li.Works_SJ_Grid02{ float:none;}
+	.Works_SJ_Grid ul li.Works_SJ_Grid02 img{ min-height:320px;}
+	.Works_SJ_Grid ul li.Works_SJ_Grid02 h2{ font-size:1.9em;}
+	.Works_SJ_Grid ul li.Works_SJ_Grid08 img{ min-height:275px;}
+	.Works_SJ_Grid ul li.Works_SJ_Grid08 h3{ top:8%;}
+	.Works_SJ_icons{ padding:30px 0;}
+	.Works_SJ_06Small{border-top:solid 3px #fff;}
+	/* last */
+	.tfcH1 img.tfc_02Small,.tfcH2 img.tfc_03Small,.tfc_04 img.tfc_04Small,img.deviveSmall,img.given_ipadminiSmall,img.given_browserSmall,img.given_elementsSmall,.photobookPic ul li img.deviveSmall{ display:block; margin:0 auto;}
+}
+@media screen and (max-width:320px),screen and (max-device-width:320px){
+	.data ul{ width:100%; box-sizing:border-box; padding:30px 10px;}
+	.eat{ width:235px; left:50%; margin-left:-141px;}
+	.about_introPic img.about_intro_smaller{ display:block;}
+	/* Works topoli*/
+	.rounded ul li h3 img{ width:225px;}
+	.rounded ul li h4 img{ width:33px;}
+	.bigmac img{ width:240px;}
+	.ipad .topoliR h4{font-size: 0.8em;line-height: 20px;}
+	.color{ margin-left:-155px;}
+	.color em{ font-size:0.6em;}
+	.color span{ margin:12px 5px;}
+	.tingaH1 h1{ top:12%;}
+}
+
+@media screen and (max-width:830px),screen and (max-device-width:830px){
+	.dataCircle,.dataCircle:first-child,.dataCircle:last-child{ width:100%; margin:0 0 10px 0;}
+}
+@media screen and (min-width:481px) and (max-width:830px),screen and (min-device-width:481px) and (max-device-width:830px){
+	.data ul li .dataCircle h3{min-height:30px;line-height:20px;}	
+}
+@media screen and (min-width:481px) and (max-width:1024px),screen and (min-device-width:481px) and (max-device-width:1024px){
+	.works{ padding:15px 0 0 15px;}
+	.works ul li a span{ left:10px; bottom:8px;}
+}
